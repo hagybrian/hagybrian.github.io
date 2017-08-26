@@ -1,0 +1,91 @@
+body {
+    background: #777;
+}
+
+nav {
+    background: #ffffff;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+nav li {
+    display: inline-block;
+}
+aside {
+    background: #ebebeb;
+    width: 270px;
+    float: left;
+    margin-left: 40px;
+}
+section {
+    background: #ebebeb;
+    width: 650px;
+    float: left;
+}
+
+#page-header,
+#page-footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    background: #ccc;
+}
+
+#page-header {
+    background: #ffffff;
+    border-bottom: 3px solid #cccccc;
+    top: 0;
+    height: 100px;
+}
+
+.title {
+    width: 200px;
+}
+
+#page-footer {
+    bottom: 0;
+    height: 75px;
+    background: #666666;
+    padding: 20px;
+    margin-top: 10px;
+    border-top: 5px solid #4aaaa5;
+    width: 100%;
+}
+
+#page-content {
+    padding: 100px 0 75px;
+}
+
+.inner {
+   width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: orange;
+}
+
+h1 {
+    font: 30px "Georgia", Times, Times New Roman, serif;
+    text-align: center;
+    color: #fff;
+    background: #4aaaa5;
+    padding: 30px
+}
+h2 {
+    color: #4aaaa5;
+    padding: 20px;
+}
+h3 {
+    color: #4aaaa5;
+    padding: 20px;
+}
+p {
+    font: 18px "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+}
+footer p {
+    text-align: center;
+}
