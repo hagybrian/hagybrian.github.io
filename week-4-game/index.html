@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Crystals Collector</title>
-	<link href="https://fonts.googleapis.com/css?family=Kelly+Slab" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
-</head>
-<body>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Crystals Collector</title>
+    <link href="https://fonts.googleapis.com/css?family=Kelly+Slab" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+  </head>
+  <body>
 	<div id="wrapper">
 		<header>
 			<h1>Crystals Collector</h1>
 		</header>
-
 		<main>
 			<h2>Directions</h2>
 			<ul>
@@ -30,25 +29,32 @@
 			</ul>
 		</main>
 
-
-		<div id="wins-losses"></div>
-		<div id="crystal-images">
-			<h2>Choose Your Crystal Wisely</h2>
-			<button><img src="assets/images/blue_stuff.png" width="150px" height="150px"></button>
-			<button><img src="assets/images/crist-all.jpg"></button>
-			<button><img src="assets/images/lotr.jpeg"></button>
-			<button><img src="assets/images/crystal.jpg"></button>
+		<div id="crystal-box">
+			<h2>Choose Your Crystal Wisely</h2> 
+      		<div id="crystals">
+      		</div>
 		</div>
-				<div id="random-box">
+
+		<div id="random-box">
 			<h2>Your Random Number</h2>
 			<div id="random-number">	
 			</div>
 		</div>
-		<div id="total-score">
+
+		<div id="total-box">
 			<h2>Your Total Score</h2>
 			<div id="total">	
 			</div>
 		</div>
+
+	<div id="win-box">
+      <div id="wins-losses">
+      </div>
 	</div>
-</body>
+
+
+
+</div>
+
+  </body>
 </html>

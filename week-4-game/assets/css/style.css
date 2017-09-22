@@ -22,7 +22,7 @@ h1 {
 h2 {
 	color: #006699;
 	font: 20px 'Kelly Slab';
-	padding-top: 10px;
+
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -57,30 +57,44 @@ li:before {
     position: relative;  
 } 
 
+.crystals-button {
+	padding: 9px;
+	float: left;
+}
+
 
 #random-box {
 	background: white;
 	margin: 10px 0;
-	padding: 20px 0;
+	padding: 0 ;
 	width: 195px;
 	text-align: center;
 	border: 10px groove #ccffff;
 
 }
 
-#crystal-images {
+#crystal-box {
 	margin: 10px 0;
-	padding: 20px;
+	padding: 0 20px;
 	float: right;
 	background: white;
 	text-align: center;
 	border: 10px groove #ccffff;
 }
 
-#total-score {
+#win-box {
+	margin: 10px 0;
+	padding: 0 ;
+	float: left;
+	background: white;
+	text-align: center;
+	border: 10px groove #ccffff;
+}
+
+#total-box {
 	background: white;
 	margin: 10px 0;
-	padding: 20px 0;
+	padding: 0 ;
 	width: 195px;
 	text-align: center;
 	border: 10px groove #ccffff;
@@ -88,6 +102,29 @@ li:before {
 }
 
 #random-box p {
+
+	padding: 0;
+	font-size: 30px;
+	font-weight: bold;
+	animation-name: shine;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+
+
+}
+
+#total-box p {
+	padding: 0;
+	font-size: 30px;
+	font-weight: bold;
+	animation-name: shine;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+
+}
+
+#win-box p {
+	padding: 0;
 	font-size: 30px;
 	font-weight: bold;
 	animation-name: shine;
