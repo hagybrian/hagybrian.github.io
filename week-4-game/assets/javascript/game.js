@@ -1,19 +1,14 @@
 
 $(document).ready(function() {
 
-
   var yourNumber = 0;
-
-  // Generates the random "target number" we will try to reach.
   var randomNum = createRandom();
 
   var wins = 0;
   var losses = 0;
   var crystals;
 
-  // Function that generates random values for our crystals and returns our crystals object.
   function randomCrystals() {
-    // Crystals object.
     return {
       red: {
         points: Math.floor(Math.random() * 12) + 1,
