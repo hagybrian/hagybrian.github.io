@@ -19,6 +19,12 @@ $(document).ready(function() {
 	};
 
 
+
+
+
+
+$("#random-number").html("<p>" + random + "</p>");
+
 	function displayImage() {
   $("#crystal-images").html(images[i]);
 
@@ -47,9 +53,11 @@ $(document).ready(function() {
 	        		imageUrl: "assets/images/crystal.jpg"			
 			},
 		}
+
+		
 	
 	}
-
+console.log(crystalRandom)
 
 
 
@@ -64,7 +72,12 @@ $(document).ready(function() {
 	$("#random-number").html("<p>" + random + "</p>");
 
 
+
+
 displayImage();
+crystalRandom();
+
+
 
 
 
