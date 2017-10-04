@@ -3,7 +3,12 @@ body {
 }
 
 #show-buttons {
-	padding: 5px;
+	text-align: center;
+
+}
+
+#show-form {
+	text-align: center;
 
 }
 
@@ -20,5 +25,6 @@ body {
 .show-result {
 	float: left;
 	padding: 20px;
+	text-align: center;
 
 }
