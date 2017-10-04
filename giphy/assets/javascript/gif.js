@@ -4,7 +4,6 @@ $(document).ready(function() {
  var shows = ["The Sopranos", "The Simpsons", "Breaking Bad", "Family Guy"];
 
 
-  // function to make buttons and add to page
   function populateButtons(arrayToUse, classToAdd, areaToAddTo) {
     $(areaToAddTo).empty();
 
